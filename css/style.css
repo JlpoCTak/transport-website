@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+ box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-top {
+    padding-top: 30px;
+}
+
+.header_top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_top-inner img{
+    position: relative;
+    left: -5px;
+    top: 3px;
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    color: #1572D3;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu_list-item {
+    margin-right:  10px;
+}
+
+.menu_list-link {
+    position: relative;
+    color: black;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.menu_list-link:hover {
+    color: #eb3e30;
+}
+
+.header_content-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+
+
+.header_title{
+    font-size: 36px;
+}
+
+.header_title span{
+    color: #1572D3;
+}
+
+.header_content-inner img{
+    position: absolute;
+    left: 50vw;
+    top: 1em;
+}
+
+.truck_fon{
+    position: absolute;
+    left: 20em;
+    top: 1em;
+}
+
+.header_title img{
+    position: relative;
+    top: -0.8em;
+    left: -2.7em;
+}
+
