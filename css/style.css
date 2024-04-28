@@ -81,6 +81,8 @@ body {
 
 
 .header_title{
+    position: relative;
+    top: 5em;
     font-size: 36px;
 }
 
@@ -90,13 +92,13 @@ body {
 
 .header_content-inner img{
     position: absolute;
-    left: 50vw;
+    left: 40vw;
     top: 1em;
 }
 
 .truck_fon{
     position: absolute;
-    left: 20em;
+    left: 12em;
     top: 1em;
 }
 
@@ -106,3 +108,79 @@ body {
     left: -2.7em;
 }
 
+.section_1_header {
+    position: relative;
+    top: 1em;
+    text-align: center;
+    
+}
+
+.section_1_content {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 5em;
+}
+
+.section_1_content-item{
+    position: relative;
+    width: 12vw;
+}
+
+.logos_ {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 8em;
+}
+
+.section_2_header{
+    position: relative;
+    top: 8em;
+    text-align: center;
+}
+
+.section_2_content{
+    display: flex;
+    position: relative;
+    top: 10em;
+    justify-content: space-evenly;
+}
+
+.section_2_content-left{
+    position: relative;
+    
+}
+
+.scania_truck{
+    position: absolute;
+}
+
+.vector{}
+
+.section_2_content-right{
+    position: relative;
+    width: 26vw;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.section_2_content-right h2{
+    position: relative;
+    left: -2em;
+    font-size: 35px;
+    
+}
+
+.section_2_content-right-item{
+    position: relative;
+    margin-top: -3vw;
+}
+
+.section_2_content-right-item img{
+    position: relative;
+    left: -6em;
+    top: 5.5em;
+}
