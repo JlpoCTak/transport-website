@@ -184,3 +184,61 @@ body {
     left: -6em;
     top: 5.5em;
 }
+
+.section_3_content{  
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 12%;
+    margin-right: 12%;
+    top: 16em;    
+
+}
+
+.section_3_content-item{
+    height: 470px;
+    width: 250px;
+    position: relative;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 21px 7px rgba(88, 121, 146, 0.3);
+-moz-box-shadow: 0px 0px 21px 7px rgba(88, 121, 146, 0.3);
+box-shadow: 0px 0px 21px 7px rgba(88, 121, 146, 0.3);
+    }
+
+.section_3_content-item-characters{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   border-bottom: 3px solid gainsboro;
+}
+
+.section_3_content-item-character{
+    height: 40px;
+    position: relative;
+    top: -10px;
+    margin-top: -5px;
+    width: 40%;
+}
+
+.item_cost{
+    width: 100%;
+    font-size: 25px;
+}
+
+.rent-button{
+    position: relative;
+    text-align: center;
+    top: -10px;
+}
+
+.rent-button button{
+    width: 170px;
+    height: 50px;
+    background: #1572D3;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+}
+
