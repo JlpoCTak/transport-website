@@ -18,16 +18,16 @@
                     <nav class="menu">
                         <ul class="menu_list">
                             <li class="menu_list-item">
-                                <a href="" class="menu_list-link">Стать арендатором</a>
+                                <a href="#how_it_work" class="menu_list-link">Как это работает</a>
                             </li>
                             <li class="menu_list-item">
-                                <a href="" class="menu_list-link">Сделки по аренде</a>
+                                <a href="#choose_us" class="menu_list-link">Почему выбирают нас</a>
                             </li>
                             <li class="menu_list-item">
-                                <a href="" class="menu_list-link">Как это работает</a>
+                                <a href="#popular_preloj" class="menu_list-link">Популярные предложения</a>
                             </li>
                             <li class="menu_list-item">
-                                <a href="" class="menu_list-link">Почему выбирают нас</a>
+                                <a href="#be_arendator" class="menu_list-link">Стать арендатором</a>
                             </li>
                         </ul>
                     </nav>
@@ -52,7 +52,7 @@
     <main>
         <section>
             <div class="section_1_header">
-                <h6>Как это работает</h6>
+                <h6><a  name="how_it_work"></a>Как это работает</h6>
                 <H1>Арендуйте следуя 3 шагам</H1>
             </div>
             <div class="section_1_content">
@@ -80,7 +80,7 @@
 
         <section>
             <div class="section_2_header">
-                <h6>Почему выбирают нас</h6>
+                <h6><a  name="choose_us"></a>Почему выбирают нас</h6>
             </div>
             <div class="section_2_content">
                 <div class="section_2_content-left">
@@ -116,7 +116,7 @@
             </div>
         </section>
             <div class="section_2_header" style="top: 14em;">
-                <h6>Популярные предложения</h6>
+                <h6><a name="popular_preloj"></a>Популярные предложения</h6>
                 <h2>Самые популярные предложения по аренде грузовиков</h2>
             </div>
             <div class="section_3_content">
@@ -231,9 +231,103 @@
             </div>
         <section>
             
+            <div class="section_4_content">
+                <div class="section_2_header" style="top: 50px;">
+                    <h6>Рекомендации</h6>
+                    <h2>Что люди думают о нас</h2>
+                </div>
+                <div class="kartinka"><img src="img/up.png" alt=""></div>
+                <div class="kartinka2"><img src="img/down.png" alt=""></div>
+                <div class="reviews">
+                    <div class="reviews-item">
+                        <img src="img/man1.jpeg" style="border-radius: 20px;" height="200px" alt="">
+                        <div class="reviews-item-right">
+                            <h1 class="user_name">Петр Петров</h1>
+                            <h1 class="ocenka">5.0 <img src="img/Star 1.png" height="20px" alt=""></h1>
+                            <p>“Недавно я арендовал автомобиль в компании Renttruck для командировки. Весь процесс аренды прошёл гладко и профессионально.”</p>
+                        </div>
+                    </div>
+                    <div class="reviews-item" style="left: 100px;">
+                        <img src="img/man2.jpg" style="border-radius: 20px;" height="200px" alt="">
+                        <div class="reviews-item-right">
+                            <h1 class="user_name">Петр Петров</h1>
+                            <h1 class="ocenka">5.0 <img src="img/Star 1.png" height="20px" alt=""></h1>
+                            <p>“Недавно я арендовал автомобиль в компании Renttruck для командировки. Весь процесс аренды прошёл гладко и профессионально.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section_2_header" style="top: 330px;">
+                <h2><a name="be_arendator"></a>Оставить заявку</h2>
+            </div>
+            <div class="section_5_content">
+                <form action="" method="get">
+                    <label>
+                        Ваше имя:
+                        <input type="text" name="name" placeholder="Иван Иванов" required>
+                    </label>
+                       
+                    <label>
+                        Номер телефона:
+                        <input type="tel" name="email" placeholder="+7 (777) 777-77-77"  pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" title="Используйте формат: +7 (777) 777-77-77" minlength="18" maxlength="18" required>
+                    </label>
+                    <label for="">
+                        Выберите автомобиль:
+                        <select name="select" size="1">
+                            <option selected value="s1">LADA GRANTA ФУРГОН</option>
+                            <option value="s2">Газель</option>
+                            <option value="s3">Цельнометаллический фургон ФОРД ТРАНЗИТ</option>
+                            <option value="s4">LADA Largus</option>
+                        </select>
+                    </label>
+                    <label for="start">Дата начала аренды:
+                        <input type="date" id="start" name="trip-start" value="" min="2024-03-05" max="2050-03-05" required/>
+                    </label>
+                    <label for="start">Дата окончания аренды аренды:
+                        <input type="date" id="start" name="trip-start" value=""  min="2024-03-05" max="2050-03-05" required/>
+                    </label>
+                    <button type="submit">
+                        Отправить
+                    </button>
+                </form>
+            </div>
         </section>
     </main>
-
-   <footer></footer> 
+   <footer>
+        <a href="" class="logo_footer" style="color: white;"><img src="img/image 14.png" width="28px" style="position: relative; top: 5px; left: -3px;" alt="">RENTTRUCK</a>
+        <div class="footer_content">
+            <nav class="menu">
+                <ul class="menu_list">
+                    <li class="menu_list-item">
+                        <a href="#how_it_work" class="menu_list-link">Как это работает</a>
+                    </li>
+                    <li class="menu_list-item">
+                        <a href="#choose_us" class="menu_list-link">Почему выбирают нас</a>
+                    </li>
+                    <li class="menu_list-item">
+                        <a href="#popular_preloj" class="menu_list-link">Популярные предложения</a>
+                    </li>
+                    <li class="menu_list-item">
+                        <a href="#be_arendator" class="menu_list-link">Стать арендатором</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="menu_list" style="position: relative; top: 30px;">
+                <li class="menu_list-item">
+                    <p href="" class="menu_list-link"><img src="img/sms.png" alt="">renttruck@yandex.ru</з>
+                </li>
+                <li class="menu_list-item">
+                    <p href="" class="menu_list-link"><img src="img/call.png" alt="">+7 (777) 777-77-77</p>
+                </li>
+                <li class="menu_list-item">
+                    <p href="" class="menu_list-link"><img src="img/location.png" alt="">г. Выдуманный, ул. Пушкина, д. 33</p>
+                </li>
+                
+            </ul>
+        </div>
+    </footer> 
 </body>           
 </html>     
